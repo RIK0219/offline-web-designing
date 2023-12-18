@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>before & after</title>
+    <style>
+      p {
+        border: 10px solid;
+        width: 400px;
+        height: 400px;
+      }
+      p::before {
+        content: "PN 12345689";
+        background-color: red;
+        display: block;
+        font-size: 60px;
+      }
+      p::after {
+        content: "jiwaji university";
+        background-color: red;
+        display: block;
+        font-size: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MUSIC is forever</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestias ad
+      ullam voluptate optio deserunt eius sed, nostrum iure excepturi amet,
+      accusantium saepe quod? Harum sunt sequi nobis corrupti inventore.
+    </p>
+  </body>
+</html>
